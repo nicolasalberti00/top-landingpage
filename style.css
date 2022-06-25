@@ -139,3 +139,13 @@ header {
   font-weight: bold;
   padding-top: 1em;
 }
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  background-color: #4b3d60;
+  color: white;
+  padding: 2em 0;
+}
