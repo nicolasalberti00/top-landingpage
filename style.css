@@ -78,6 +78,7 @@ header {
 .sunset-img {
   height: auto;
   width: 35rem;
+  border-radius: 10px;
   margin: 2rem;
 }
 
@@ -98,15 +99,24 @@ header {
 
 .card {
   flex: 1;
-  max-width: 350px;
-  max-height: 250px;
+  max-width: 400px;
+  max-height: 300px;
+  padding: 15px;
 }
 
 .img-card {
-  height: 200px;
-  width: 300px;
+  height: 300px;
+  width: 400px;
+  border: solid 3px #700c05;
+  border-radius: 10px;
+}
+
+.info-card {
+  text-align: center;
+  margin-top: 10px;
 }
 
 .info-card a {
   color: black;
+  font-size: 18px;
 }
