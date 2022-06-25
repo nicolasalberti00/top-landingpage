@@ -93,6 +93,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 2em;
 }
 
 .card {
@@ -125,7 +126,6 @@ header {
   justify-content: flex-end;
   align-items: center;
   background-color: #fc9c5480;
-  margin: 3em 0;
   padding: 2em 35em;
 }
 
@@ -138,6 +138,38 @@ header {
   font-size: 36px;
   font-weight: bold;
   padding-top: 1em;
+}
+
+.signup-box {
+  padding: 2em 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #fc9c54;
+}
+
+.signup-text,
+.signup-button {
+  padding: 3em 8em 3em 8em;
+}
+
+.signup-button {
+  display: flex;
+}
+
+.signup-button button {
+  background-color: #fc9c54;
+  border: solid 2px black;
+  border-radius: 5px;
+  padding: 1em 2em 1em 2em;
+  cursor: pointer;
 }
 
 footer {
